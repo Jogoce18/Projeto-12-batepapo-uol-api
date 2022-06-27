@@ -162,7 +162,6 @@ catch (e) {
 app.delete('/messages/:id', async (req, res) => {
     const { id } = req.params;
     const { user } = req.headers;
-
     try {
         const message = await db
             .collection('messages')
