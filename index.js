@@ -151,7 +151,6 @@ try {
      
     await db.collection("menssages").insertMany(msginativo);
     await db.collection("participants").deleteMany({lastStatus: {$lte: seconds}});
-
 } 
 }
 catch (e) {
