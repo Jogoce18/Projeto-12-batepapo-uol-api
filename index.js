@@ -180,6 +180,7 @@ app.delete('/messages/:id', async (req, res) => {
     } catch (err) {
         console.log(err);
     }
+    
 });
 
 /*A porta utilizada pelo seu servidor deve ser a 5000*/
